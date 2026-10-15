@@ -1,0 +1,19 @@
+<resources>
+    <color name="editor_bg">#1E1F22</color>
+    <color name="editor_fg">#BCBEC4</color>
+    <color name="gutter_bg">#2B2D30</color>
+    <color name="gutter_fg">#6F737A</color>
+    <color name="divider">#393B40</color>
+    <color name="console_bg">#16171A</color>
+    <color name="console_error">#F2777A</color>
+    <color name="console_system">#6FB3D2</color>
+    <color name="accent">#5FD068</color>
+    <color name="tok_keyword">#CF8E6D</color>
+    <color name="tok_builtin">#C77DBB</color>
+    <color name="tok_string">#6AAB73</color>
+    <color name="tok_number">#2AACB8</color>
+    <color name="tok_comment">#7A7E85</color>
+    <color name="tok_decorator">#B3AE60</color>
+    <color name="tok_self">#94558D</color>
+    <color name="launcher_bg">#1E1F22</color>
+</resources>

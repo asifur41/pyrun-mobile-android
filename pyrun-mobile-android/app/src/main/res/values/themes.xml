@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.PyRun" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="android:statusBarColor">@color/gutter_bg</item>
+        <item name="android:windowBackground">@color/editor_bg</item>
+    </style>
+</resources>

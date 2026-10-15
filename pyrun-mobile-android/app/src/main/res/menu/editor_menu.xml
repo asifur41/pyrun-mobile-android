@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_run" android:title="Run" android:icon="@drawable/ic_play"
+        android:iconTint="@color/accent" app:showAsAction="always" />
+    <item android:id="@+id/action_new" android:title="New file" android:icon="@drawable/ic_add"
+        android:iconTint="@color/editor_fg" app:showAsAction="always" />
+    <item android:id="@+id/action_save" android:title="Save" android:icon="@drawable/ic_save"
+        android:iconTint="@color/editor_fg" app:showAsAction="always" />
+    <item android:id="@+id/action_open" android:title="Open file…" app:showAsAction="never" />
+    <item android:id="@+id/action_projects" android:title="Projects…" app:showAsAction="never" />
+    <item android:id="@+id/action_import" android:title="Import .py…" app:showAsAction="never" />
+    <item android:id="@+id/action_export" android:title="Export .py…" app:showAsAction="never" />
+    <item android:id="@+id/action_console" android:title="Toggle console" app:showAsAction="never" />
+    <item android:id="@+id/action_delete" android:title="Delete file" app:showAsAction="never" />
+</menu>
