@@ -11,6 +11,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven("https://chaquo.com/maven")
+    }
 }
 rootProject.name = "pyrun-mobile-android"
 include(":app")
