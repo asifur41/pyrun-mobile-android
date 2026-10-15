@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           java-version: '17'
           distribution: 'temurin'
@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - uses: gradle/actions/setup-gradle@v4
+      - uses: gradle/actions/setup-gradle@v3
 
       - name: Make gradlew executable
         run: chmod +x gradlew
@@ -58,3 +58,5 @@ jobs:
         with:
           name: pyrun-mobile-release-apk
           path: app/build/outputs/apk/release/*.apk
+          - name: Install Android SDK
+  uses: android-actions/setup-android@v3
