@@ -58,5 +58,3 @@ jobs:
         with:
           name: pyrun-mobile-release-apk
           path: app/build/outputs/apk/release/*.apk
-          - name: Install Android SDK
-  uses: android-actions/setup-android@v3
